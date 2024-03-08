@@ -1,0 +1,27 @@
+// Antd Design Styles
+@import "~antd/dist/antd.css";
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.main-layout {
+  margin-left: 200px;
+  height: 100vh;
+  display: flex;
+  overflow: auto;
+
+  .ant-layout-content {
+    flex: 1;
+    margin: 16px;
+  }
+
+  &-content {
+    background: #fff;
+    height: 100%;
+  }
+}
